@@ -15,7 +15,7 @@ import {
     Position,
     Tooltip,
     type LocalizationMap,
-} from '@react-pdf-viewer/core';
+} from '@murasoftware/react-pdf-viewer-core';
 import * as React from 'react';
 import { type RenderZoomInProps } from './types/RenderZoomInProps';
 import { ZoomInIcon } from './ZoomInIcon';

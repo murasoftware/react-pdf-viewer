@@ -1,6 +1,6 @@
 {
-    "name": "@react-pdf-viewer/default-layout",
-    "version": "3.12.0",
+    "name": "@murasoftware/react-pdf-viewer-default-layout",
+    "version": "4.0.0",
     "description": "A React component to view a PDF document",
     "license": "https://react-pdf-viewer.dev/license",
     "author": {
@@ -29,15 +29,15 @@
     "files": [
         "lib/cjs/*.*",
         "lib/styles/*.*",
-        "lib/index.d.ts",
+        "lib/@types/*.*",
         "lib/index.js"
     ],
     "dependencies": {
-        "@react-pdf-viewer/attachment": "3.12.0",
-        "@react-pdf-viewer/bookmark": "3.12.0",
-        "@react-pdf-viewer/core": "3.12.0",
-        "@react-pdf-viewer/thumbnail": "3.12.0",
-        "@react-pdf-viewer/toolbar": "3.12.0"
+        "@murasoftware/react-pdf-viewer-attachment": "^4.0.0",
+        "@murasoftware/react-pdf-viewer-bookmark": "^4.0.0",
+        "@murasoftware/react-pdf-viewer-core": "^4.0.0",
+        "@murasoftware/react-pdf-viewer-thumbnail": "^4.0.0",
+        "@murasoftware/react-pdf-viewer-toolbar": "^4.0.0"
     },
     "peerDependencies": {
         "react": ">=16.8.0",

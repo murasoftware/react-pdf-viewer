@@ -15,7 +15,7 @@ import {
     type LocalizationMap,
     type PdfJs,
     type Store,
-} from '@react-pdf-viewer/core';
+} from '@murasoftware/react-pdf-viewer-core';
 import * as React from 'react';
 import { PrintStatus } from './structs/PrintStatus';
 import styles from './styles/checkPrintPermission.module.css';

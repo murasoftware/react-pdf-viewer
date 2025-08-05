@@ -14,7 +14,7 @@ import {
     TextDirection,
     ThemeContext,
     type LocalizationMap,
-} from '@react-pdf-viewer/core';
+} from '@murasoftware/react-pdf-viewer-core';
 import * as React from 'react';
 import styles from './styles/dropArea.module.css';
 import { useDrop } from './useDrop';

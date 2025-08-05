@@ -16,7 +16,7 @@ import {
     classNames,
     type LocalizationMap,
     type PdfJs,
-} from '@react-pdf-viewer/core';
+} from '@murasoftware/react-pdf-viewer-core';
 import * as React from 'react';
 import { AttachmentList } from './AttachmentList';
 import styles from './styles/attachmentLoader.module.css';

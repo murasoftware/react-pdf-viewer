@@ -32,7 +32,7 @@ const buildPackage = async (rootPackagePath: string) => {
     const packageJson = JSON.parse(packageContent) as unknown as PackageJson;
 
     const outputDir = path.join(rootPackagePath, 'lib');
-    const packageName = packageJson.name.split('/').pop();
+    const packageName = packageJson.name.split('@murasoftware/react-pdf-viewer-').pop();
 
     const external = [
         ...Object.keys(packageJson.dependencies || {}),

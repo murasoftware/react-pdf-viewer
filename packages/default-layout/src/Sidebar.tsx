@@ -20,7 +20,7 @@ import {
     type LocalizationMap,
     type SplitterSize,
     type Store,
-} from '@react-pdf-viewer/core';
+} from '@murasoftware/react-pdf-viewer-core';
 import * as React from 'react';
 import { BookmarkIcon } from './BookmarkIcon';
 import { FileIcon } from './FileIcon';

@@ -1,4 +1,4 @@
-import { PdfJsApiContext, Viewer, type PdfJsApiProvider, type Plugin, type RenderViewer } from '@react-pdf-viewer/core';
+import { PdfJsApiContext, Viewer, type PdfJsApiProvider, type Plugin, type RenderViewer } from '@murasoftware/react-pdf-viewer-core';
 import { render, waitForElementToBeRemoved } from '@testing-library/react';
 import * as fs from 'node:fs';
 import * as path from 'path';

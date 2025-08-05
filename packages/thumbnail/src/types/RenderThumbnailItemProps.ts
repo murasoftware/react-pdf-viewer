@@ -6,7 +6,7 @@
  * @copyright 2019-2024 Nguyen Huu Phuoc <me@phuoc.ng>
  */
 
-import { RotateDirection } from '@react-pdf-viewer/core';
+import { RotateDirection } from '@murasoftware/react-pdf-viewer-core';
 import * as React from 'react';
 
 export interface RenderThumbnailItemProps {

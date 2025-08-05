@@ -8,7 +8,7 @@
 
 'use client';
 
-import { type PageSize, type PdfJs, type Store, type StoreHandler } from '@react-pdf-viewer/core';
+import { type PageSize, type PdfJs, type Store, type StoreHandler } from '@murasoftware/react-pdf-viewer-core';
 import * as React from 'react';
 import { CheckPrintPermission } from './CheckPrintPermission';
 import { PrintProgress } from './PrintProgress';
