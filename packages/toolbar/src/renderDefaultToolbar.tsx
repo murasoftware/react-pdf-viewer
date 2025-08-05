@@ -8,7 +8,7 @@
 
 'use client';
 
-import { Breakpoint, BreakpointContext, classNames, TextDirection, ThemeContext } from '@react-pdf-viewer/core';
+import { Breakpoint, BreakpointContext, classNames, TextDirection, ThemeContext } from '@murasoftware/react-pdf-viewer-core';
 import * as React from 'react';
 import { MoreActionsPopover } from './MoreActionsPopover';
 import styles from './styles/defaultToolbar.module.css';

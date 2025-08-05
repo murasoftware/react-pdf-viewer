@@ -8,7 +8,7 @@
 
 'use client';
 
-import { MenuItem } from '@react-pdf-viewer/core';
+import { MenuItem } from '@murasoftware/react-pdf-viewer-core';
 import * as React from 'react';
 import { SwitchSelectionModeDecorator } from './SwitchSelectionModeDecorator';
 import { SelectionMode } from './structs/SelectionMode';

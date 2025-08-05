@@ -8,7 +8,7 @@
 
 'use client';
 
-import { Spinner } from '@react-pdf-viewer/core';
+import { Spinner } from '@murasoftware/react-pdf-viewer-core';
 import * as React from 'react';
 
 export interface SpinnerContextProps {

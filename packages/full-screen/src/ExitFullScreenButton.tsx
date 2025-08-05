@@ -15,7 +15,7 @@ import {
     TextDirection,
     ThemeContext,
     type LocalizationMap,
-} from '@react-pdf-viewer/core';
+} from '@murasoftware/react-pdf-viewer-core';
 import * as React from 'react';
 import { ExitFullScreenIcon } from './ExitFullScreenIcon';
 import styles from './styles/exitFullScreenButton.module.css';

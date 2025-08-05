@@ -8,10 +8,10 @@
 
 'use client';
 
-import { ScrollMode, ViewMode, type Store } from '@react-pdf-viewer/core';
+import { ScrollMode, ViewMode, type Store } from '@murasoftware/react-pdf-viewer-core';
 import * as React from 'react';
 import { SwitchScrollModeButton } from './SwitchScrollModeButton';
-import { switchScrollMode } from './switchScrollMode';
+import { switchScrollMode } from './switchScrollModeFunction';
 import { type RenderSwitchScrollModeProps } from './types/RenderSwitchScrollModeProps';
 import { type StoreProps } from './types/StoreProps';
 import { useScrollMode } from './useScrollMode';

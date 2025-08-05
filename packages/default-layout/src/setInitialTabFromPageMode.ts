@@ -6,8 +6,8 @@
  * @copyright 2019-2024 Nguyen Huu Phuoc <me@phuoc.ng>
  */
 
-import { type PdfJs } from '@react-pdf-viewer/core';
-import { PageMode } from '@react-pdf-viewer/core';
+import { type PdfJs } from '@murasoftware/react-pdf-viewer-core';
+import { PageMode } from '@murasoftware/react-pdf-viewer-core';
 
 export const setInitialTabFromPageMode = (doc: PdfJs.PdfDocument) =>
     // eslint-disable-next-line @typescript-eslint/no-unused-vars

@@ -15,7 +15,7 @@ import {
     classNames,
     useIsomorphicLayoutEffect,
     type LocalizationMap,
-} from '@react-pdf-viewer/core';
+} from '@murasoftware/react-pdf-viewer-core';
 import * as React from 'react';
 import { downloadFile } from './downloadFile';
 import styles from './styles/attachmentList.module.css';

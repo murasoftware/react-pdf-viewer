@@ -8,7 +8,7 @@
 
 'use client';
 
-import { FullScreenMode, Spinner, type Store } from '@react-pdf-viewer/core';
+import { FullScreenMode, Spinner, type Store } from '@murasoftware/react-pdf-viewer-core';
 import * as React from 'react';
 import styles from './styles/overlay.module.css';
 import { type StoreProps } from './types/StoreProps';

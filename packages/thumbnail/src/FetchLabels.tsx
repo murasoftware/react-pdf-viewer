@@ -8,7 +8,7 @@
 
 'use client';
 
-import { useSafeState, type PdfJs } from '@react-pdf-viewer/core';
+import { useSafeState, type PdfJs } from '@murasoftware/react-pdf-viewer-core';
 import * as React from 'react';
 
 export const FetchLabels: React.FC<{

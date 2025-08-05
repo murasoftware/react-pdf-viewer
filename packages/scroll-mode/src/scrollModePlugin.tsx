@@ -15,7 +15,7 @@ import {
     type Plugin,
     type PluginFunctions,
     type ViewerState,
-} from '@react-pdf-viewer/core';
+} from '@murasoftware/react-pdf-viewer-core';
 import * as React from 'react';
 import { SwitchScrollMode, SwitchScrollModeProps } from './SwitchScrollMode';
 import { SwitchScrollModeButton } from './SwitchScrollModeButton';
@@ -23,8 +23,8 @@ import { SwitchScrollModeMenuItem } from './SwitchScrollModeMenuItem';
 import { SwitchViewMode, SwitchViewModeProps } from './SwitchViewMode';
 import { SwitchViewModeButton } from './SwitchViewModeButton';
 import { SwitchViewModeMenuItem } from './SwitchViewModeMenuItem';
-import { switchScrollMode } from './switchScrollMode';
-import { switchViewMode } from './switchViewMode';
+import { switchScrollMode } from './switchScrollModeFunction';
+import { switchViewMode } from './switchViewModeFunction';
 import { type StoreProps } from './types/StoreProps';
 
 export interface SwitchScrollModeButtonProps {
